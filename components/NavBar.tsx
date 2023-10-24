@@ -1,4 +1,4 @@
-import styles from "./navbar.module.css"
+import styles from "./NavBar.module.css"
 import { ActiveLink } from "./ActiveLink";
 
 interface MenuItem {
