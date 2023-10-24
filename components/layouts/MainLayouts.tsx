@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from './MainLayout.module.css'
-import { NavBar } from '../NavBar'
+import {Navbar} from '../Navbar'
 import { ReactNode } from 'react';
+
 
 type MainLayoutsProps = {
     children: ReactNode; // Usa ReactNode para el tipo de children
@@ -18,7 +19,7 @@ export const MainLayouts = ( {children}: MainLayoutsProps ) => {
             <link rel="icon" href="/favicon.ico" />
           </Head>
     
-          <NavBar/>
+          <Navbar/ >
           
           <main className={styles.main}>
     

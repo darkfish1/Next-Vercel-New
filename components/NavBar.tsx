@@ -1,4 +1,4 @@
-import styles from "./NavBar.module.css"
+import styles from "./Navbar.module.css"
 import { ActiveLink } from "./ActiveLink";
 
 interface MenuItem {
@@ -28,7 +28,7 @@ const menuItems: MenuItem[] = [
 ];
 
 
-export const NavBar = () => {
+export const Navbar = () => {
   return (
     <nav className={ styles['menu-container']}>
       {
